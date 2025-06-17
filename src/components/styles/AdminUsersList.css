@@ -1,0 +1,138 @@
+  
+
+/* Container Styles */
+.users-list-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .users-list-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Users Table */
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .users-table th {
+    background-color: #f6f6f6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  .users-table td {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .users-table tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .users-table button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .users-table button:hover {
+    opacity: 0.9;
+  }
+  
+  .users-table button:nth-child(1) {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .users-table button:nth-child(2) {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .users-table button:nth-child(3) {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Filters */
+  .users-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .users-filters input,
+  .users-filters select {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+  }
+  
+  /* Delete Selected Button */
+  .delete-selected-btn {
+    padding: 0.4rem 0.8rem;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-selected-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Load More Button */
+  .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .load-more-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .load-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .users-filters {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  
