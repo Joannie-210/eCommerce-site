@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import { FaPlus, FaMinus } from 'react-icons/fa';
 import Footer from '../components/Footer';
 
+
 const Product = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
